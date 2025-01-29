@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/UVC4UnityAndroidPlugin/Samples/Scenes/UVC2DScene.unity
+    guid: d9c653ce29884b648bd83d4066fe46c0
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/Scenes/IKTest.unity
+    guid: 218e40dc1a096fd4fa622829b803fcc3
+  - enabled: 0
+    path: Assets/Scenes/VisionTest.unity
+    guid: 1f9639a4da89698409c7c0966da58944
+  - enabled: 1
+    path: Assets/Scenes/Integral.unity
+    guid: a77764b2f5250a448bd9609c2d88d9e9
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 6e2d216d6c522124cbb8dea51918d825, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 99e1c4929d68a7a479e16ee3da5499ea, type: 2}

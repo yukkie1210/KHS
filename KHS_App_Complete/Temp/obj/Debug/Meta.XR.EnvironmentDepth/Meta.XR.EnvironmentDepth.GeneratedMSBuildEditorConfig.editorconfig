@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Meta.XR.EnvironmentDepth
+build_property.ProjectDir = C:\Users\mech-user\Documents\jisyupro\KHS_App_Complete\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

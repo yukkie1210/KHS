@@ -1,0 +1,2105 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETStandard,Version=v2.1": {
+      "Assembly-CSharp/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "IngameDebugConsole.Editor": "1.0.0",
+          "IngameDebugConsole.Runtime": "1.0.0",
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.BuildingBlocks.DepthAPI": "1.0.0",
+          "Meta.XR.BuildingBlocks.DepthAPI.Editor": "1.0.0",
+          "Meta.XR.BuildingBlocks.Editor": "1.0.0",
+          "Meta.XR.Editor.Callbacks": "1.0.0",
+          "Meta.XR.Editor.PlayCompanion": "1.0.0",
+          "Meta.XR.Editor.Reflection": "1.0.0",
+          "Meta.XR.Editor.Settings": "1.0.0",
+          "Meta.XR.Editor.StatusMenu": "1.0.0",
+          "Meta.XR.Editor.Tags": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Meta.XR.EnvironmentDepth": "1.0.0",
+          "Meta.XR.EnvironmentDepth.Editor": "1.0.0",
+          "Meta.XR.Guides.Editor": "1.0.0",
+          "Meta.XR.ImmersiveDebugger": "1.0.0",
+          "Meta.XR.ImmersiveDebugger.Editor": "1.0.0",
+          "Meta.XR.ImmersiveDebugger.Interface": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Fusion.Editor": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.NGO.Editor": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared.Editor": "1.0.0",
+          "NewAssembly": "1.0.0",
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.Editor": "1.0.0",
+          "Oculus.Interaction.InterfaceSupport": "1.0.0",
+          "Oculus.Interaction.OVR": "1.0.0",
+          "Oculus.Interaction.OVR.Editor": "1.0.0",
+          "Oculus.Interaction.OVR.Samples": "1.0.0",
+          "Oculus.Interaction.Samples": "1.0.0",
+          "Oculus.Interaction.Samples.Editor": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "Oculus.VR.Scripts.Editor": "1.0.0",
+          "UniTask": "1.0.0",
+          "UniTask.Addressables": "1.0.0",
+          "UniTask.DOTween": "1.0.0",
+          "UniTask.Linq": "1.0.0",
+          "UniTask.TextMeshPro": "1.0.0",
+          "Unity.EditorCoroutines.Editor": "1.0.0",
+          "Unity.Performance.Profile-Analyzer.Editor": "1.0.0",
+          "Unity.PlasticSCM.Editor": "1.0.0",
+          "Unity.Rider.Editor": "1.0.0",
+          "Unity.TestTools.CodeCoverage.Editor": "1.0.0",
+          "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model": "1.0.0",
+          "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "Unity.TextMeshPro.Editor": "1.0.0",
+          "Unity.Timeline": "1.0.0",
+          "Unity.Timeline.Editor": "1.0.0",
+          "Unity.VSCode.Editor": "1.0.0",
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.SettingsProvider.Editor": "1.0.0",
+          "Unity.VisualScripting.Shared.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "Unity.VisualScripting.State.Editor": "1.0.0",
+          "Unity.VisualStudio.Editor": "1.0.0",
+          "Unity.XR.Management": "1.0.0",
+          "Unity.XR.Management.Editor": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "Unity.XR.Oculus.Editor": "1.0.0",
+          "UnityEditor.SpatialTracking": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEditor.XR.LegacyInputHelpers": "1.0.0",
+          "UnityEngine.SpatialTracking": "1.0.0",
+          "UnityEngine.UI": "1.0.0",
+          "UnityEngine.XR.LegacyInputHelpers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Assembly-CSharp.dll": {}
+        }
+      },
+      "IngameDebugConsole.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "IngameDebugConsole.Runtime": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IngameDebugConsole.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IngameDebugConsole.Editor.dll": {}
+        }
+      },
+      "IngameDebugConsole.Runtime/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IngameDebugConsole.Runtime.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IngameDebugConsole.Runtime.dll": {}
+        }
+      },
+      "Meta.XR.BuildingBlocks/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.VR": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.dll": {}
+        }
+      },
+      "Meta.XR.BuildingBlocks.DepthAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.DepthAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.DepthAPI.dll": {}
+        }
+      },
+      "Meta.XR.BuildingBlocks.DepthAPI.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.BuildingBlocks.DepthAPI": "1.0.0",
+          "Meta.XR.BuildingBlocks.Editor": "1.0.0",
+          "Meta.XR.Editor.Tags": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Meta.XR.EnvironmentDepth": "1.0.0",
+          "Meta.XR.Guides.Editor": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.DepthAPI.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.DepthAPI.Editor.dll": {}
+        }
+      },
+      "Meta.XR.BuildingBlocks.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.Editor.Callbacks": "1.0.0",
+          "Meta.XR.Editor.Reflection": "1.0.0",
+          "Meta.XR.Editor.StatusMenu": "1.0.0",
+          "Meta.XR.Editor.Tags": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Meta.XR.Guides.Editor": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "Oculus.VR.Scripts.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.BuildingBlocks.Editor.dll": {}
+        }
+      },
+      "Meta.XR.Editor.Callbacks/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.Callbacks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.Callbacks.dll": {}
+        }
+      },
+      "Meta.XR.Editor.PlayCompanion/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.Reflection": "1.0.0",
+          "Meta.XR.Editor.Settings": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.PlayCompanion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.PlayCompanion.dll": {}
+        }
+      },
+      "Meta.XR.Editor.Reflection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.Reflection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.Reflection.dll": {}
+        }
+      },
+      "Meta.XR.Editor.Settings/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.Settings.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.Settings.dll": {}
+        }
+      },
+      "Meta.XR.Editor.StatusMenu/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.Reflection": "1.0.0",
+          "Meta.XR.Editor.Settings": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.StatusMenu.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.StatusMenu.dll": {}
+        }
+      },
+      "Meta.XR.Editor.Tags/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.Tags.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.Tags.dll": {}
+        }
+      },
+      "Meta.XR.Editor.UserInterface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Editor.UserInterface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Editor.UserInterface.dll": {}
+        }
+      },
+      "Meta.XR.EnvironmentDepth/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.VR": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.EnvironmentDepth.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.EnvironmentDepth.dll": {}
+        }
+      },
+      "Meta.XR.EnvironmentDepth.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.EnvironmentDepth": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.EnvironmentDepth.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.EnvironmentDepth.Editor.dll": {}
+        }
+      },
+      "Meta.XR.Guides.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.Guides.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.Guides.Editor.dll": {}
+        }
+      },
+      "Meta.XR.ImmersiveDebugger/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.Callbacks": "1.0.0",
+          "Meta.XR.ImmersiveDebugger.Interface": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.ImmersiveDebugger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.ImmersiveDebugger.dll": {}
+        }
+      },
+      "Meta.XR.ImmersiveDebugger.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.Callbacks": "1.0.0",
+          "Meta.XR.Editor.StatusMenu": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Meta.XR.ImmersiveDebugger": "1.0.0",
+          "Meta.XR.ImmersiveDebugger.Interface": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.ImmersiveDebugger.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.ImmersiveDebugger.Editor.dll": {}
+        }
+      },
+      "Meta.XR.ImmersiveDebugger.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.ImmersiveDebugger.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.ImmersiveDebugger.Interface.dll": {}
+        }
+      },
+      "Meta.XR.MultiplayerBlocks.Fusion.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.BuildingBlocks.Editor": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared.Editor": "1.0.0",
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.OVR.Editor": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.Fusion.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.Fusion.Editor.dll": {}
+        }
+      },
+      "Meta.XR.MultiplayerBlocks.NGO.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.BuildingBlocks.Editor": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared.Editor": "1.0.0",
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.Editor": "1.0.0",
+          "Oculus.Interaction.OVR": "1.0.0",
+          "Oculus.Interaction.OVR.Editor": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "Oculus.VR.Scripts.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.NGO.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.NGO.Editor.dll": {}
+        }
+      },
+      "Meta.XR.MultiplayerBlocks.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.OVR": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.Shared.dll": {}
+        }
+      },
+      "Meta.XR.MultiplayerBlocks.Shared.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.BuildingBlocks.Editor": "1.0.0",
+          "Meta.XR.MultiplayerBlocks.Shared": "1.0.0",
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.OVR.Editor": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.Shared.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Meta.XR.MultiplayerBlocks.Shared.Editor.dll": {}
+        }
+      },
+      "NewAssembly/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction.Editor": "1.0.0",
+          "Oculus.Interaction.Samples": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NewAssembly.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NewAssembly.dll": {}
+        }
+      },
+      "Oculus.Interaction/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.TextMeshPro": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.dll": {}
+        }
+      },
+      "Oculus.Interaction.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.Editor.dll": {}
+        }
+      },
+      "Oculus.Interaction.InterfaceSupport/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.InterfaceSupport.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.InterfaceSupport.dll": {}
+        }
+      },
+      "Oculus.Interaction.OVR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.OVR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.OVR.dll": {}
+        }
+      },
+      "Oculus.Interaction.OVR.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.BuildingBlocks.Editor": "1.0.0",
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.Editor": "1.0.0",
+          "Oculus.Interaction.OVR": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.OVR.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.OVR.Editor.dll": {}
+        }
+      },
+      "Oculus.Interaction.OVR.Samples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.Samples": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.OVR.Samples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.OVR.Samples.dll": {}
+        }
+      },
+      "Oculus.Interaction.Samples/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.Samples.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.Samples.dll": {}
+        }
+      },
+      "Oculus.Interaction.Samples.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.Interaction": "1.0.0",
+          "Oculus.Interaction.Editor": "1.0.0",
+          "Oculus.Interaction.Samples": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.Interaction.Samples.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.Interaction.Samples.Editor.dll": {}
+        }
+      },
+      "Oculus.VR/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.Editor.Callbacks": "1.0.0",
+          "Unity.XR.Management": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.VR.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.VR.dll": {}
+        }
+      },
+      "Oculus.VR.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Meta.XR.BuildingBlocks": "1.0.0",
+          "Meta.XR.Editor.Callbacks": "1.0.0",
+          "Meta.XR.Editor.Reflection": "1.0.0",
+          "Meta.XR.Editor.StatusMenu": "1.0.0",
+          "Meta.XR.Editor.UserInterface": "1.0.0",
+          "Oculus.VR": "1.0.0",
+          "Unity.XR.Management": "1.0.0",
+          "Unity.XR.Management.Editor": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.VR.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.VR.Editor.dll": {}
+        }
+      },
+      "Oculus.VR.Scripts.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Oculus.VR": "1.0.0",
+          "Oculus.VR.Editor": "1.0.0",
+          "Unity.XR.Management": "1.0.0",
+          "Unity.XR.Management.Editor": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Oculus.VR.Scripts.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Oculus.VR.Scripts.Editor.dll": {}
+        }
+      },
+      "UniTask/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.dll": {}
+        }
+      },
+      "UniTask.Addressables/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UniTask": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.Addressables.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.Addressables.dll": {}
+        }
+      },
+      "UniTask.DOTween/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UniTask": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.DOTween.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.DOTween.dll": {}
+        }
+      },
+      "UniTask.Linq/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UniTask": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.Linq.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.Linq.dll": {}
+        }
+      },
+      "UniTask.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UniTask": "1.0.0",
+          "Unity.TextMeshPro": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UniTask.TextMeshPro.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UniTask.TextMeshPro.dll": {}
+        }
+      },
+      "Unity.EditorCoroutines.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.EditorCoroutines.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.EditorCoroutines.Editor.dll": {}
+        }
+      },
+      "Unity.Performance.Profile-Analyzer.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Performance.Profile-Analyzer.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Performance.Profile-Analyzer.Editor.dll": {}
+        }
+      },
+      "Unity.PlasticSCM.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.PlasticSCM.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.PlasticSCM.Editor.dll": {}
+        }
+      },
+      "Unity.Rider.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Rider.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Rider.Editor.dll": {}
+        }
+      },
+      "Unity.Settings.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Settings.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Settings.Editor.dll": {}
+        }
+      },
+      "Unity.TestTools.CodeCoverage.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Settings.Editor": "1.0.0",
+          "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model": "1.0.0",
+          "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.TestTools.CodeCoverage.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.TestTools.CodeCoverage.Editor.dll": {}
+        }
+      },
+      "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll": {}
+        }
+      },
+      "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll": {}
+        }
+      },
+      "Unity.TextMeshPro/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.TextMeshPro.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.TextMeshPro.dll": {}
+        }
+      },
+      "Unity.TextMeshPro.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.TextMeshPro": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.TextMeshPro.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.TextMeshPro.Editor.dll": {}
+        }
+      },
+      "Unity.Timeline/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Timeline.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Timeline.dll": {}
+        }
+      },
+      "Unity.Timeline.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.Timeline": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.Timeline.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.Timeline.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Core.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Core.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Core.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Core.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Flow/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Flow.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Flow.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Flow.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Flow.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Flow.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.SettingsProvider.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.SettingsProvider.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.SettingsProvider.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.Shared.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "Unity.VisualScripting.State.Editor": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.Shared.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.Shared.Editor.dll": {}
+        }
+      },
+      "Unity.VisualScripting.State/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.State.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.State.dll": {}
+        }
+      },
+      "Unity.VisualScripting.State.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.VisualScripting.Core": "1.0.0",
+          "Unity.VisualScripting.Core.Editor": "1.0.0",
+          "Unity.VisualScripting.Flow": "1.0.0",
+          "Unity.VisualScripting.Flow.Editor": "1.0.0",
+          "Unity.VisualScripting.State": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualScripting.State.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualScripting.State.Editor.dll": {}
+        }
+      },
+      "Unity.VisualStudio.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VisualStudio.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VisualStudio.Editor.dll": {}
+        }
+      },
+      "Unity.VSCode.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.VSCode.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.VSCode.Editor.dll": {}
+        }
+      },
+      "Unity.XR.Management/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.XR.Management.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Management.dll": {}
+        }
+      },
+      "Unity.XR.Management.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.XR.Management": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.XR.Management.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Management.Editor.dll": {}
+        }
+      },
+      "Unity.XR.Oculus/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.XR.Management": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.XR.Oculus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Oculus.dll": {}
+        }
+      },
+      "Unity.XR.Oculus.Editor/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "Unity.XR.Management": "1.0.0",
+          "Unity.XR.Management.Editor": "1.0.0",
+          "Unity.XR.Oculus": "1.0.0",
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Unity.XR.Oculus.Editor.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Unity.XR.Oculus.Editor.dll": {}
+        }
+      },
+      "UnityEditor.SpatialTracking/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.SpatialTracking": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.SpatialTracking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.SpatialTracking.dll": {}
+        }
+      },
+      "UnityEditor.TestRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEngine.TestRunner": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.TestRunner.dll": {}
+        }
+      },
+      "UnityEditor.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.UI.dll": {}
+        }
+      },
+      "UnityEditor.XR.LegacyInputHelpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.TestRunner": "1.0.0",
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.SpatialTracking": "1.0.0",
+          "UnityEngine.TestRunner": "1.0.0",
+          "UnityEngine.UI": "1.0.0",
+          "UnityEngine.XR.LegacyInputHelpers": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEditor.XR.LegacyInputHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEditor.XR.LegacyInputHelpers.dll": {}
+        }
+      },
+      "UnityEngine.SpatialTracking/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEngine.SpatialTracking.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.SpatialTracking.dll": {}
+        }
+      },
+      "UnityEngine.TestRunner/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.TestRunner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.TestRunner.dll": {}
+        }
+      },
+      "UnityEngine.UI/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.UI.dll": {}
+        }
+      },
+      "UnityEngine.XR.LegacyInputHelpers/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "dependencies": {
+          "UnityEditor.UI": "1.0.0",
+          "UnityEngine.SpatialTracking": "1.0.0",
+          "UnityEngine.UI": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UnityEngine.XR.LegacyInputHelpers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UnityEngine.XR.LegacyInputHelpers.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Assembly-CSharp/1.0.0": {
+      "type": "project",
+      "path": "Assembly-CSharp.csproj",
+      "msbuildProject": "Assembly-CSharp.csproj"
+    },
+    "IngameDebugConsole.Editor/1.0.0": {
+      "type": "project",
+      "path": "IngameDebugConsole.Editor.csproj",
+      "msbuildProject": "IngameDebugConsole.Editor.csproj"
+    },
+    "IngameDebugConsole.Runtime/1.0.0": {
+      "type": "project",
+      "path": "IngameDebugConsole.Runtime.csproj",
+      "msbuildProject": "IngameDebugConsole.Runtime.csproj"
+    },
+    "Meta.XR.BuildingBlocks/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.BuildingBlocks.csproj",
+      "msbuildProject": "Meta.XR.BuildingBlocks.csproj"
+    },
+    "Meta.XR.BuildingBlocks.DepthAPI/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.BuildingBlocks.DepthAPI.csproj",
+      "msbuildProject": "Meta.XR.BuildingBlocks.DepthAPI.csproj"
+    },
+    "Meta.XR.BuildingBlocks.DepthAPI.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.BuildingBlocks.DepthAPI.Editor.csproj",
+      "msbuildProject": "Meta.XR.BuildingBlocks.DepthAPI.Editor.csproj"
+    },
+    "Meta.XR.BuildingBlocks.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.BuildingBlocks.Editor.csproj",
+      "msbuildProject": "Meta.XR.BuildingBlocks.Editor.csproj"
+    },
+    "Meta.XR.Editor.Callbacks/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.Callbacks.csproj",
+      "msbuildProject": "Meta.XR.Editor.Callbacks.csproj"
+    },
+    "Meta.XR.Editor.PlayCompanion/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.PlayCompanion.csproj",
+      "msbuildProject": "Meta.XR.Editor.PlayCompanion.csproj"
+    },
+    "Meta.XR.Editor.Reflection/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.Reflection.csproj",
+      "msbuildProject": "Meta.XR.Editor.Reflection.csproj"
+    },
+    "Meta.XR.Editor.Settings/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.Settings.csproj",
+      "msbuildProject": "Meta.XR.Editor.Settings.csproj"
+    },
+    "Meta.XR.Editor.StatusMenu/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.StatusMenu.csproj",
+      "msbuildProject": "Meta.XR.Editor.StatusMenu.csproj"
+    },
+    "Meta.XR.Editor.Tags/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.Tags.csproj",
+      "msbuildProject": "Meta.XR.Editor.Tags.csproj"
+    },
+    "Meta.XR.Editor.UserInterface/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Editor.UserInterface.csproj",
+      "msbuildProject": "Meta.XR.Editor.UserInterface.csproj"
+    },
+    "Meta.XR.EnvironmentDepth/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.EnvironmentDepth.csproj",
+      "msbuildProject": "Meta.XR.EnvironmentDepth.csproj"
+    },
+    "Meta.XR.EnvironmentDepth.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.EnvironmentDepth.Editor.csproj",
+      "msbuildProject": "Meta.XR.EnvironmentDepth.Editor.csproj"
+    },
+    "Meta.XR.Guides.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.Guides.Editor.csproj",
+      "msbuildProject": "Meta.XR.Guides.Editor.csproj"
+    },
+    "Meta.XR.ImmersiveDebugger/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.ImmersiveDebugger.csproj",
+      "msbuildProject": "Meta.XR.ImmersiveDebugger.csproj"
+    },
+    "Meta.XR.ImmersiveDebugger.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.ImmersiveDebugger.Editor.csproj",
+      "msbuildProject": "Meta.XR.ImmersiveDebugger.Editor.csproj"
+    },
+    "Meta.XR.ImmersiveDebugger.Interface/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.ImmersiveDebugger.Interface.csproj",
+      "msbuildProject": "Meta.XR.ImmersiveDebugger.Interface.csproj"
+    },
+    "Meta.XR.MultiplayerBlocks.Fusion.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.MultiplayerBlocks.Fusion.Editor.csproj",
+      "msbuildProject": "Meta.XR.MultiplayerBlocks.Fusion.Editor.csproj"
+    },
+    "Meta.XR.MultiplayerBlocks.NGO.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.MultiplayerBlocks.NGO.Editor.csproj",
+      "msbuildProject": "Meta.XR.MultiplayerBlocks.NGO.Editor.csproj"
+    },
+    "Meta.XR.MultiplayerBlocks.Shared/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.MultiplayerBlocks.Shared.csproj",
+      "msbuildProject": "Meta.XR.MultiplayerBlocks.Shared.csproj"
+    },
+    "Meta.XR.MultiplayerBlocks.Shared.Editor/1.0.0": {
+      "type": "project",
+      "path": "Meta.XR.MultiplayerBlocks.Shared.Editor.csproj",
+      "msbuildProject": "Meta.XR.MultiplayerBlocks.Shared.Editor.csproj"
+    },
+    "NewAssembly/1.0.0": {
+      "type": "project",
+      "path": "NewAssembly.csproj",
+      "msbuildProject": "NewAssembly.csproj"
+    },
+    "Oculus.Interaction/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.csproj",
+      "msbuildProject": "Oculus.Interaction.csproj"
+    },
+    "Oculus.Interaction.Editor/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.Editor.csproj",
+      "msbuildProject": "Oculus.Interaction.Editor.csproj"
+    },
+    "Oculus.Interaction.InterfaceSupport/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.InterfaceSupport.csproj",
+      "msbuildProject": "Oculus.Interaction.InterfaceSupport.csproj"
+    },
+    "Oculus.Interaction.OVR/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.OVR.csproj",
+      "msbuildProject": "Oculus.Interaction.OVR.csproj"
+    },
+    "Oculus.Interaction.OVR.Editor/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.OVR.Editor.csproj",
+      "msbuildProject": "Oculus.Interaction.OVR.Editor.csproj"
+    },
+    "Oculus.Interaction.OVR.Samples/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.OVR.Samples.csproj",
+      "msbuildProject": "Oculus.Interaction.OVR.Samples.csproj"
+    },
+    "Oculus.Interaction.Samples/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.Samples.csproj",
+      "msbuildProject": "Oculus.Interaction.Samples.csproj"
+    },
+    "Oculus.Interaction.Samples.Editor/1.0.0": {
+      "type": "project",
+      "path": "Oculus.Interaction.Samples.Editor.csproj",
+      "msbuildProject": "Oculus.Interaction.Samples.Editor.csproj"
+    },
+    "Oculus.VR/1.0.0": {
+      "type": "project",
+      "path": "Oculus.VR.csproj",
+      "msbuildProject": "Oculus.VR.csproj"
+    },
+    "Oculus.VR.Editor/1.0.0": {
+      "type": "project",
+      "path": "Oculus.VR.Editor.csproj",
+      "msbuildProject": "Oculus.VR.Editor.csproj"
+    },
+    "Oculus.VR.Scripts.Editor/1.0.0": {
+      "type": "project",
+      "path": "Oculus.VR.Scripts.Editor.csproj",
+      "msbuildProject": "Oculus.VR.Scripts.Editor.csproj"
+    },
+    "UniTask/1.0.0": {
+      "type": "project",
+      "path": "UniTask.csproj",
+      "msbuildProject": "UniTask.csproj"
+    },
+    "UniTask.Addressables/1.0.0": {
+      "type": "project",
+      "path": "UniTask.Addressables.csproj",
+      "msbuildProject": "UniTask.Addressables.csproj"
+    },
+    "UniTask.DOTween/1.0.0": {
+      "type": "project",
+      "path": "UniTask.DOTween.csproj",
+      "msbuildProject": "UniTask.DOTween.csproj"
+    },
+    "UniTask.Linq/1.0.0": {
+      "type": "project",
+      "path": "UniTask.Linq.csproj",
+      "msbuildProject": "UniTask.Linq.csproj"
+    },
+    "UniTask.TextMeshPro/1.0.0": {
+      "type": "project",
+      "path": "UniTask.TextMeshPro.csproj",
+      "msbuildProject": "UniTask.TextMeshPro.csproj"
+    },
+    "Unity.EditorCoroutines.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.EditorCoroutines.Editor.csproj",
+      "msbuildProject": "Unity.EditorCoroutines.Editor.csproj"
+    },
+    "Unity.Performance.Profile-Analyzer.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Performance.Profile-Analyzer.Editor.csproj",
+      "msbuildProject": "Unity.Performance.Profile-Analyzer.Editor.csproj"
+    },
+    "Unity.PlasticSCM.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.PlasticSCM.Editor.csproj",
+      "msbuildProject": "Unity.PlasticSCM.Editor.csproj"
+    },
+    "Unity.Rider.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Rider.Editor.csproj",
+      "msbuildProject": "Unity.Rider.Editor.csproj"
+    },
+    "Unity.Settings.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Settings.Editor.csproj",
+      "msbuildProject": "Unity.Settings.Editor.csproj"
+    },
+    "Unity.TestTools.CodeCoverage.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.TestTools.CodeCoverage.Editor.csproj",
+      "msbuildProject": "Unity.TestTools.CodeCoverage.Editor.csproj"
+    },
+    "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model/1.0.0": {
+      "type": "project",
+      "path": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj",
+      "msbuildProject": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj"
+    },
+    "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection/1.0.0": {
+      "type": "project",
+      "path": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj",
+      "msbuildProject": "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj"
+    },
+    "Unity.TextMeshPro/1.0.0": {
+      "type": "project",
+      "path": "Unity.TextMeshPro.csproj",
+      "msbuildProject": "Unity.TextMeshPro.csproj"
+    },
+    "Unity.TextMeshPro.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.TextMeshPro.Editor.csproj",
+      "msbuildProject": "Unity.TextMeshPro.Editor.csproj"
+    },
+    "Unity.Timeline/1.0.0": {
+      "type": "project",
+      "path": "Unity.Timeline.csproj",
+      "msbuildProject": "Unity.Timeline.csproj"
+    },
+    "Unity.Timeline.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.Timeline.Editor.csproj",
+      "msbuildProject": "Unity.Timeline.Editor.csproj"
+    },
+    "Unity.VisualScripting.Core/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Core.csproj",
+      "msbuildProject": "Unity.VisualScripting.Core.csproj"
+    },
+    "Unity.VisualScripting.Core.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Core.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.Core.Editor.csproj"
+    },
+    "Unity.VisualScripting.Flow/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Flow.csproj",
+      "msbuildProject": "Unity.VisualScripting.Flow.csproj"
+    },
+    "Unity.VisualScripting.Flow.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Flow.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.Flow.Editor.csproj"
+    },
+    "Unity.VisualScripting.SettingsProvider.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.SettingsProvider.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.SettingsProvider.Editor.csproj"
+    },
+    "Unity.VisualScripting.Shared.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.Shared.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.Shared.Editor.csproj"
+    },
+    "Unity.VisualScripting.State/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.State.csproj",
+      "msbuildProject": "Unity.VisualScripting.State.csproj"
+    },
+    "Unity.VisualScripting.State.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualScripting.State.Editor.csproj",
+      "msbuildProject": "Unity.VisualScripting.State.Editor.csproj"
+    },
+    "Unity.VisualStudio.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VisualStudio.Editor.csproj",
+      "msbuildProject": "Unity.VisualStudio.Editor.csproj"
+    },
+    "Unity.VSCode.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.VSCode.Editor.csproj",
+      "msbuildProject": "Unity.VSCode.Editor.csproj"
+    },
+    "Unity.XR.Management/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Management.csproj",
+      "msbuildProject": "Unity.XR.Management.csproj"
+    },
+    "Unity.XR.Management.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Management.Editor.csproj",
+      "msbuildProject": "Unity.XR.Management.Editor.csproj"
+    },
+    "Unity.XR.Oculus/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Oculus.csproj",
+      "msbuildProject": "Unity.XR.Oculus.csproj"
+    },
+    "Unity.XR.Oculus.Editor/1.0.0": {
+      "type": "project",
+      "path": "Unity.XR.Oculus.Editor.csproj",
+      "msbuildProject": "Unity.XR.Oculus.Editor.csproj"
+    },
+    "UnityEditor.SpatialTracking/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.SpatialTracking.csproj",
+      "msbuildProject": "UnityEditor.SpatialTracking.csproj"
+    },
+    "UnityEditor.TestRunner/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.TestRunner.csproj",
+      "msbuildProject": "UnityEditor.TestRunner.csproj"
+    },
+    "UnityEditor.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.UI.csproj",
+      "msbuildProject": "UnityEditor.UI.csproj"
+    },
+    "UnityEditor.XR.LegacyInputHelpers/1.0.0": {
+      "type": "project",
+      "path": "UnityEditor.XR.LegacyInputHelpers.csproj",
+      "msbuildProject": "UnityEditor.XR.LegacyInputHelpers.csproj"
+    },
+    "UnityEngine.SpatialTracking/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.SpatialTracking.csproj",
+      "msbuildProject": "UnityEngine.SpatialTracking.csproj"
+    },
+    "UnityEngine.TestRunner/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.TestRunner.csproj",
+      "msbuildProject": "UnityEngine.TestRunner.csproj"
+    },
+    "UnityEngine.UI/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.UI.csproj",
+      "msbuildProject": "UnityEngine.UI.csproj"
+    },
+    "UnityEngine.XR.LegacyInputHelpers/1.0.0": {
+      "type": "project",
+      "path": "UnityEngine.XR.LegacyInputHelpers.csproj",
+      "msbuildProject": "UnityEngine.XR.LegacyInputHelpers.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETStandard,Version=v2.1": [
+      "Assembly-CSharp >= 1.0.0",
+      "IngameDebugConsole.Editor >= 1.0.0",
+      "IngameDebugConsole.Runtime >= 1.0.0",
+      "Meta.XR.BuildingBlocks >= 1.0.0",
+      "Meta.XR.BuildingBlocks.DepthAPI >= 1.0.0",
+      "Meta.XR.BuildingBlocks.DepthAPI.Editor >= 1.0.0",
+      "Meta.XR.BuildingBlocks.Editor >= 1.0.0",
+      "Meta.XR.Editor.Callbacks >= 1.0.0",
+      "Meta.XR.Editor.PlayCompanion >= 1.0.0",
+      "Meta.XR.Editor.Reflection >= 1.0.0",
+      "Meta.XR.Editor.Settings >= 1.0.0",
+      "Meta.XR.Editor.StatusMenu >= 1.0.0",
+      "Meta.XR.Editor.Tags >= 1.0.0",
+      "Meta.XR.Editor.UserInterface >= 1.0.0",
+      "Meta.XR.EnvironmentDepth >= 1.0.0",
+      "Meta.XR.EnvironmentDepth.Editor >= 1.0.0",
+      "Meta.XR.Guides.Editor >= 1.0.0",
+      "Meta.XR.ImmersiveDebugger >= 1.0.0",
+      "Meta.XR.ImmersiveDebugger.Editor >= 1.0.0",
+      "Meta.XR.ImmersiveDebugger.Interface >= 1.0.0",
+      "Meta.XR.MultiplayerBlocks.Fusion.Editor >= 1.0.0",
+      "Meta.XR.MultiplayerBlocks.NGO.Editor >= 1.0.0",
+      "Meta.XR.MultiplayerBlocks.Shared >= 1.0.0",
+      "Meta.XR.MultiplayerBlocks.Shared.Editor >= 1.0.0",
+      "NewAssembly >= 1.0.0",
+      "Oculus.Interaction >= 1.0.0",
+      "Oculus.Interaction.Editor >= 1.0.0",
+      "Oculus.Interaction.InterfaceSupport >= 1.0.0",
+      "Oculus.Interaction.OVR >= 1.0.0",
+      "Oculus.Interaction.OVR.Editor >= 1.0.0",
+      "Oculus.Interaction.OVR.Samples >= 1.0.0",
+      "Oculus.Interaction.Samples >= 1.0.0",
+      "Oculus.Interaction.Samples.Editor >= 1.0.0",
+      "Oculus.VR >= 1.0.0",
+      "Oculus.VR.Editor >= 1.0.0",
+      "Oculus.VR.Scripts.Editor >= 1.0.0",
+      "UniTask >= 1.0.0",
+      "UniTask.Addressables >= 1.0.0",
+      "UniTask.DOTween >= 1.0.0",
+      "UniTask.Linq >= 1.0.0",
+      "UniTask.TextMeshPro >= 1.0.0",
+      "Unity.EditorCoroutines.Editor >= 1.0.0",
+      "Unity.Performance.Profile-Analyzer.Editor >= 1.0.0",
+      "Unity.PlasticSCM.Editor >= 1.0.0",
+      "Unity.Rider.Editor >= 1.0.0",
+      "Unity.TestTools.CodeCoverage.Editor >= 1.0.0",
+      "Unity.TestTools.CodeCoverage.Editor.OpenCover.Model >= 1.0.0",
+      "Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection >= 1.0.0",
+      "Unity.TextMeshPro >= 1.0.0",
+      "Unity.TextMeshPro.Editor >= 1.0.0",
+      "Unity.Timeline >= 1.0.0",
+      "Unity.Timeline.Editor >= 1.0.0",
+      "Unity.VSCode.Editor >= 1.0.0",
+      "Unity.VisualScripting.Core >= 1.0.0",
+      "Unity.VisualScripting.Core.Editor >= 1.0.0",
+      "Unity.VisualScripting.Flow >= 1.0.0",
+      "Unity.VisualScripting.Flow.Editor >= 1.0.0",
+      "Unity.VisualScripting.SettingsProvider.Editor >= 1.0.0",
+      "Unity.VisualScripting.Shared.Editor >= 1.0.0",
+      "Unity.VisualScripting.State >= 1.0.0",
+      "Unity.VisualScripting.State.Editor >= 1.0.0",
+      "Unity.VisualStudio.Editor >= 1.0.0",
+      "Unity.XR.Management >= 1.0.0",
+      "Unity.XR.Management.Editor >= 1.0.0",
+      "Unity.XR.Oculus >= 1.0.0",
+      "Unity.XR.Oculus.Editor >= 1.0.0",
+      "UnityEditor.SpatialTracking >= 1.0.0",
+      "UnityEditor.TestRunner >= 1.0.0",
+      "UnityEditor.UI >= 1.0.0",
+      "UnityEditor.XR.LegacyInputHelpers >= 1.0.0",
+      "UnityEngine.SpatialTracking >= 1.0.0",
+      "UnityEngine.TestRunner >= 1.0.0",
+      "UnityEngine.UI >= 1.0.0",
+      "UnityEngine.XR.LegacyInputHelpers >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mech-user\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Assembly-CSharp-Editor.csproj",
+      "projectName": "Assembly-CSharp-Editor",
+      "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Assembly-CSharp-Editor.csproj",
+      "packagesPath": "C:\\Users\\mech-user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Temp\\obj\\Debug\\Assembly-CSharp-Editor\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mech-user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netstandard2.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "projectReferences": {
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Assembly-CSharp.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Assembly-CSharp.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\IngameDebugConsole.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\IngameDebugConsole.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\IngameDebugConsole.Runtime.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\IngameDebugConsole.Runtime.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.DepthAPI.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.DepthAPI.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.DepthAPI.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.DepthAPI.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.BuildingBlocks.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Callbacks.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Callbacks.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.PlayCompanion.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.PlayCompanion.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Reflection.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Reflection.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Settings.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Settings.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.StatusMenu.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.StatusMenu.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Tags.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.Tags.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.UserInterface.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Editor.UserInterface.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.EnvironmentDepth.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.EnvironmentDepth.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.EnvironmentDepth.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.EnvironmentDepth.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Guides.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.Guides.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.ImmersiveDebugger.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.ImmersiveDebugger.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.ImmersiveDebugger.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.ImmersiveDebugger.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.ImmersiveDebugger.Interface.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.ImmersiveDebugger.Interface.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.Fusion.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.Fusion.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.NGO.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.NGO.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.Shared.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.Shared.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.Shared.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Meta.XR.MultiplayerBlocks.Shared.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\NewAssembly.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\NewAssembly.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.InterfaceSupport.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.InterfaceSupport.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.OVR.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.OVR.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.OVR.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.OVR.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.OVR.Samples.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.OVR.Samples.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.Samples.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.Samples.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.Samples.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.Interaction.Samples.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.VR.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.VR.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.VR.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.VR.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.VR.Scripts.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Oculus.VR.Scripts.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.Addressables.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.Addressables.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.DOTween.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.DOTween.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.Linq.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.Linq.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.TextMeshPro.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UniTask.TextMeshPro.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.EditorCoroutines.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.EditorCoroutines.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Performance.Profile-Analyzer.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Performance.Profile-Analyzer.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.PlasticSCM.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.PlasticSCM.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Rider.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Rider.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TestTools.CodeCoverage.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TestTools.CodeCoverage.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TextMeshPro.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TextMeshPro.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TextMeshPro.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.TextMeshPro.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Timeline.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Timeline.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Timeline.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.Timeline.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Core.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Core.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Core.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Core.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Flow.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Flow.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Flow.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Flow.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.SettingsProvider.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.SettingsProvider.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Shared.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.Shared.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.State.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.State.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.State.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualScripting.State.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualStudio.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VisualStudio.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VSCode.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.VSCode.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Management.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Management.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Management.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Management.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Oculus.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Oculus.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Oculus.Editor.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\Unity.XR.Oculus.Editor.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.SpatialTracking.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.SpatialTracking.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.TestRunner.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.TestRunner.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.UI.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.UI.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.XR.LegacyInputHelpers.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEditor.XR.LegacyInputHelpers.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.SpatialTracking.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.SpatialTracking.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.TestRunner.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.TestRunner.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.UI.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.UI.csproj"
+            },
+            "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.XR.LegacyInputHelpers.csproj": {
+              "projectPath": "C:\\Users\\mech-user\\Documents\\jisyupro\\KHS_App_Complete\\UnityEngine.XR.LegacyInputHelpers.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
