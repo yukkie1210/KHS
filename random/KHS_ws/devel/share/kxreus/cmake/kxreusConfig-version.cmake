@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/kxreus/share/kxreus/cmake/kxreusConfig-version.cmake

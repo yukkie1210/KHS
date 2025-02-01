@@ -1,0 +1,126 @@
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:307:
+  Syntax Warning in cmake code at column 76
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:308:
+  Syntax Warning in cmake code at column 75
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:312:
+  Syntax Warning in cmake code at column 75
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:332:
+  Syntax Warning in cmake code at column 75
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:337:
+  Syntax Warning in cmake code at column 76
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:389:
+  Syntax Warning in cmake code at column 75
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:393:
+  Syntax Warning in cmake code at column 76
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at CMakeFiles/Makefile.cmake:414:
+  Syntax Warning in cmake code at column 76
+
+  Argument not separated from preceding token by whitespace.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[  0%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoState
+[  0%] Built target _kxr_controller_generate_messages_check_deps_Stretch
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoStateArray
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchAction
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControl
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlActionFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlActionResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlAction
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOff
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchActionFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchActionResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_StretchActionGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffActionFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffResult
+[  0%] Built target actionlib_msgs_generate_messages_cpp
+[  0%] Built target _kxr_controller_generate_messages_check_deps_PressureControlActionGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorActionResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorActionFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffActionResult
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffAction
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorActionGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffActionGoal
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorFeedback
+[  0%] Built target roscpp_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _kxr_controller_generate_messages_check_deps_ServoOnOffFeedback
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorAction
+[  0%] Built target roscpp_generate_messages_nodejs
+[  0%] Built target controller_manager_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_cpp
+[  0%] Built target _kxr_controller_generate_messages_check_deps_AdjustAngleVectorGoal
+[  0%] Built target rosgraph_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_py
+[  0%] Built target _catkin_empty_exported_target
+[  0%] Built target controller_manager_msgs_generate_messages_eus
+[  0%] Built target actionlib_generate_messages_nodejs
+[  0%] Built target rosgraph_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target roscpp_generate_messages_cpp
+[  0%] Built target actionlib_msgs_generate_messages_nodejs
+[  0%] Built target actionlib_msgs_generate_messages_lisp
+[  0%] Built target actionlib_generate_messages_eus
+[  0%] Built target rosgraph_msgs_generate_messages_cpp
+[  0%] Built target kxr_controller_gencfg
+[  0%] Built target roscpp_generate_messages_py
+[  0%] Built target roscpp_generate_messages_lisp
+[  0%] Built target controller_manager_msgs_generate_messages_lisp
+[  0%] Built target rosgraph_msgs_generate_messages_eus
+[  0%] Built target actionlib_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target actionlib_msgs_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_py
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target controller_manager_msgs_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_gencfg
+[  0%] Built target controller_manager_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_nodejs
+[ 19%] Built target kxr_controller_generate_messages_py
+[ 38%] Built target kxr_controller_generate_messages_lisp
+[ 78%] Built target kxr_controller_generate_messages_cpp
+[ 78%] Built target kxr_controller_generate_messages_eus
+[ 97%] Built target kxr_controller_generate_messages_nodejs
+[ 97%] Built target kxr_controller_generate_messages
+[100%] Built target kxr_controller

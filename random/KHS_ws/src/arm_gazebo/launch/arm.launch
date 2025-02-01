@@ -1,0 +1,55 @@
+<launch>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+
+    <arg name="world_name" value="$(find arm_gazebo)/worlds/arm.world"/>
+
+  </include>
+
+
+
+  <arg name="use_gui" default="false" />
+
+
+
+  <arg name="model" default="$(find arm)/urdf/arm.urdf" />
+
+  <param name="robot_description" textfile="$(arg model)" />
+
+  <!-- <node name="joint_state_publisher_gui" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" /> -->
+
+
+
+  <!-- We do not have a robot connected, so publish fake joint states -->
+
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" unless="$(arg use_gui)">
+
+    <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+
+    <rosparam param="source_list">[/arm/joint_states]</rosparam>
+
+  </node>
+
+  <!-- <node name="joint_state_publisher" pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" if="$(arg use_gui)">
+
+    <rosparam param="source_list">[move_group/fake_controller_joint_states]</rosparam>
+
+    <rosparam param="source_list">[/joint_states]</rosparam>
+
+  </node> -->
+
+
+
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" />
+
+
+
+  <param name="robot_description" type="str" textfile="$(find arm)/urdf/arm.urdf"/>
+
+
+
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model arm" />
+
+
+
+</launch>

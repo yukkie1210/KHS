@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mech-user/KHS_ws/devel/.private/arm_moveit_config/setup.sh

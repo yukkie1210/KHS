@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/kxr_models/share/kxr_models/cmake/kxr_modelsConfig.cmake

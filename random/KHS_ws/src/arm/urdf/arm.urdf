@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<robot name="arm">
+    <link name="world" />
+    <joint name="base_joint" type="fixed">
+        <parent link="world" />
+        <child link="base_link" />
+    </joint>
+    <link name="base_link">
+        <inertial>
+            <origin xyz="1.0923e-09 -0.00036956 0.01462" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0075189" />
+            <inertia ixx="1.0989e-06" ixy="-6.2351e-15" ixz="5.849e-14" iyy="1.1804e-06" iyz="6.6338e-09" izz="4.0321e-07" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/base_link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/base_link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="base_link">
+        <material>Gazebo/White</material>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/</robotNamespace>
+        </plugin>
+    </gazebo>
+    <link name="1st_Link">
+        <inertial>
+            <origin xyz="-0.015399 0.0074273 0.010446" rpy="0.0 -0.0 0.0" />
+            <mass value="0.048882" />
+            <inertia ixx="6.8979e-06" ixy="-2.3831e-08" ixz="1.1596e-08" iyy="6.302e-06" iyz="1.8013e-08" izz="5.3898e-06" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/1st_Link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/1st_Link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="1st_Link">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <link name="2nd_Link">
+        <inertial>
+            <origin xyz="0.027763 4.3705e-15 0.05401" rpy="0.0 -0.0 0.0" />
+            <mass value="0.020588" />
+            <inertia ixx="7.8383e-06" ixy="1.589e-21" ixz="7.3274e-09" iyy="7.9107e-06" iyz="-1.5828e-21" izz="9.7116e-07" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/2nd_Link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/2nd_Link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="2nd_Link">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <link name="3rd_Link">
+        <inertial>
+            <origin xyz="-0.014263 -4.4343e-05 0.041357" rpy="0.0 -0.0 0.0" />
+            <mass value="0.046001" />
+            <inertia ixx="1.0929e-05" ixy="-3.1856e-09" ixz="-1.7863e-08" iyy="1.182e-05" iyz="1.1677e-08" izz="4.515e-06" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/3rd_Link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/3rd_Link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="3rd_Link">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <link name="4th_Link">
+        <inertial>
+            <origin xyz="-0.0074588 0.00010484 0.044375" rpy="0.0 -0.0 0.0" />
+            <mass value="0.04603" />
+            <inertia ixx="1.1483e-05" ixy="1.1677e-08" ixz="-2.1055e-08" iyy="1.15e-05" iyz="-9.849e-09" izz="3.6533e-06" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/4th_Link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/4th_Link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="4th_Link">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <link name="5th_Link">
+        <inertial>
+            <origin xyz="1.65665414228744e-05 -0.00745860239072963 0.0443751106653841" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0460295689846967" />
+            <inertia ixx="1.15001031532943e-05" ixy="-1.16770189992613e-08" ixz="-3.53768586035351e-09" iyy="1.14828431326992e-05" iyz="-2.1082723061138e-08" izz="3.6532975004842e-06" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/5th_Link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/5th_Link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="5th_Link">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <link name="6th_Link">
+        <inertial>
+            <origin xyz="-0.00742594942774238 7.92049952883098e-05 0.010765199236792" rpy="0.0 -0.0 0.0" />
+            <mass value="0.0256754898662028" />
+            <inertia ixx="3.12264044102928e-06" ixy="1.16771992938427e-08" ixz="-2.10590464254499e-08" iyy="3.19682613445759e-06" iyz="-3.17595873109114e-09" izz="2.70646972284129e-06" />
+        </inertial>
+        <visual>
+            <geometry>
+                <mesh filename="package://arm/meshes/6th_Link.dae" />
+            </geometry>
+            <material name="" />
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </visual>
+        <collision>
+            <geometry>
+                <mesh filename="package://arm/meshes/6th_Link.dae" />
+            </geometry>
+            <origin xyz="0.0 0.0 0.0" rpy="0.0 -0.0 0.0" />
+        </collision>
+    </link>
+    <gazebo reference="6th_Link">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <joint name="joint1" type="revolute">
+        <limit effort="0.48" velocity="6.55" lower="-2.35" upper="2.35" />
+        <parent link="base_link" />
+        <child link="1st_Link" />
+        <axis xyz="0. 1. 0." />
+        <origin xyz="0.0 -0.0075 0.038" rpy="0.0 -0.0 0.0" />
+    </joint>
+    <joint name="joint2" type="revolute">
+        <limit effort="0.48" velocity="6.55" lower="-2.35" upper="2.35" />
+        <parent link="1st_Link" />
+        <child link="2nd_Link" />
+        <axis xyz="-1.  0.  0." />
+        <origin xyz="-0.0275 0.0075 0.021" rpy="0.0 -0.0 0.0" />
+    </joint>
+    <joint name="joint3" type="revolute">
+        <limit effort="0.48" velocity="6.55" lower="-2.35" upper="2.35" />
+        <parent link="2nd_Link" />
+        <child link="3rd_Link" />
+        <axis xyz="0. 0. 1." />
+        <origin xyz="0.0275 0.0 0.112" rpy="0.0 -0.0 0.0" />
+    </joint>
+    <joint name="joint4" type="revolute">
+        <limit effort="0.48" velocity="6.55" lower="-2.35" upper="2.35" />
+        <parent link="3rd_Link" />
+        <child link="4th_Link" />
+        <axis xyz="-1.  0.  0." />
+        <origin xyz="-0.0135 0.0 0.139" rpy="0.0 -0.0 0.0" />
+    </joint>
+    <joint name="joint5" type="revolute">
+        <limit effort="0.48" velocity="6.55" lower="-2.35" upper="2.35" />
+        <parent link="4th_Link" />
+        <child link="5th_Link" />
+        <axis xyz=" 0. -1.  0." />
+        <origin xyz="-0.0075 0.0075005 0.145" rpy="0.0 -0.0 0.0" />
+    </joint>
+    <joint name="joint6" type="revolute">
+        <limit effort="0.48" velocity="6.55" lower="-2.35" upper="2.35" />
+        <parent link="5th_Link" />
+        <child link="6th_Link" />
+        <axis xyz="-1.000e+00  0.000e+00  1.155e-05" />
+        <origin xyz="0.0075017 -0.0074995 0.145" rpy="0.0 -0.0 0.0" />
+    </joint>
+    <material name="">
+        <color rgba="0.29804 0.29804 0.29804 1.     " />
+    </material>
+    <transmission name="trans_joint1">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint1">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="joint1_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_joint2">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint2">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="joint2_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_joint3">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint3">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="joint3_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_joint4">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint4">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="joint4_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_joint5">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint5">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="joint5_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <transmission name="trans_joint6">
+        <type>transmission_interface/SimpleTransmission</type>
+        <joint name="joint6">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+        </joint>
+        <actuator name="joint6_motor">
+            <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+            <mechanicalReduction>1</mechanicalReduction>
+        </actuator>
+    </transmission>
+    <gazebo>
+        <plugin name="control_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/arm</robotNamespace>
+            <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+            <legacyModeNS>true</legacyModeNS>
+        </plugin>
+    </gazebo>
+</robot>

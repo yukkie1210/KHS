@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/kxr_controller/share/gennodejs/ros/kxr_controller/msg/_index.js

@@ -1,0 +1,5 @@
+arm
+/home/mech-user/KHS_ws/devel/.private/arm/cmake.lock /home/mech-user/KHS_ws/devel/./cmake.lock
+/home/mech-user/KHS_ws/devel/.private/arm/share/arm/cmake/armConfig-version.cmake /home/mech-user/KHS_ws/devel/share/arm/cmake/armConfig-version.cmake
+/home/mech-user/KHS_ws/devel/.private/arm/share/arm/cmake/armConfig.cmake /home/mech-user/KHS_ws/devel/share/arm/cmake/armConfig.cmake
+/home/mech-user/KHS_ws/devel/.private/arm/lib/pkgconfig/arm.pc /home/mech-user/KHS_ws/devel/lib/pkgconfig/arm.pc

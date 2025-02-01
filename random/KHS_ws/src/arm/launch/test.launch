@@ -1,0 +1,12 @@
+<launch>
+    <!-- ロボットの状態パブリッシャー -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
+        <param name="robot_description" textfile="$(find arm)/urdf/arm.urdf"/>
+    </node>
+
+    <!-- MoveIt -->
+    <include file="$(find arm_moveit)/launch/move_group.launch"/>
+
+    <!-- ノード -->
+    <node name="moveit_ik_publisher" pkg="arm" type="moveit_ik_publisher.py" output="screen"/>
+</launch>

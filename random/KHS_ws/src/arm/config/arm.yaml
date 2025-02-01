@@ -1,0 +1,12 @@
+arm:
+ - 1st_joint : 1st-joint
+ - 2nd_joint : 2nd-joint
+ - 3rd_joint : 3rd-joint
+ - 4th_joint : 4th-joint
+ - 5th_joint : 5th-joint
+ - 6th_joint : 6th-joint
+
+arm-end-coords:
+  translate : [0.0, 0.0, 0.0]
+  rotate : [1.0, 0.0, 0.0, 0.0]
+  parent : 6th_Link

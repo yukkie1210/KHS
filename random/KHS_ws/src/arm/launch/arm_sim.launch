@@ -1,0 +1,31 @@
+<launch>
+  <rosparam file="$(find arm_moveit_config)/config/trajectory_control.yaml" command="load"/>
+
+  <arg name="model" default="$(find arm)/urdf/arm.urdf" />
+  <param name="robot_description" textfile="$(arg model)" />
+
+  <!-- Start the manipulator's world -->
+  <include file="$(find gazebo_ros)/launch/empty_world.launch"/>
+
+  <!-- Spawn the manipulator model -->
+  <node
+    name="spawn_urdf"
+    pkg="gazebo_ros"
+    type="spawn_model"
+    args="-param robot_description -urdf -model arm"
+    />
+
+  <!-- Start the robot state publisher -->
+  <node
+    name="robot_state_publisher"
+    pkg="robot_state_publisher"
+    type="robot_state_publisher"
+    />
+
+  <!-- Start the controllers for the arm joints and the gripper
+       This launches controllers that work with the Gazebo ros_control plugin
+       to provide the same interfaces that are provided by the Dynamixel
+       controller nodes in the hardware version. -->
+  <node name="arm_controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen" ns="/arm" args="arm_joint_controller joint_state_controller"/>
+
+</launch>

@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/kxr_controller/lib/kxr_controller/rcb4_ros_bridge.py

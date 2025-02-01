@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mech-user/KHS_ws/devel/.private/kxr_controller/setup.sh

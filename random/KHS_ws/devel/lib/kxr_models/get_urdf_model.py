@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/kxr_models/lib/kxr_models/get_urdf_model.py

@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/kxr_controller/share/roseus/ros/kxr_controller/msg/AdjustAngleVectorActionFeedback.l

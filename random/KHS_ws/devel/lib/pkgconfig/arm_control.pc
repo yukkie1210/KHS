@@ -1,0 +1,1 @@
+/home/mech-user/KHS_ws/devel/.private/arm_control/lib/pkgconfig/arm_control.pc

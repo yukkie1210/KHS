@@ -1,0 +1,6 @@
+devel_space: /home/mech-user/KHS_ws/devel
+install: false
+install_space: /home/mech-user/KHS_ws/install
+profile: default
+source_space: /home/mech-user/KHS_ws/src
+workspace: /home/mech-user/KHS_ws
